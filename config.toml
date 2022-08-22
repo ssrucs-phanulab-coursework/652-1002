@@ -1,0 +1,33 @@
+[projects]
+
+  [projects.default]
+  contents = [
+    "about",
+    "intro",
+    "cprog",
+    "moreon_cprog",
+    "cdebuggingtools",
+    "bidatarep",
+    "neumancomparch",
+    "diveintoassembly",
+    "x86_64assembly",
+    "armv8assembly",
+    "storagememorg",
+    "codeopt",
+    "os",
+    "sharedmem",
+    "parallelsys",
+    "appendix",
+    "references",
+  ]
+
+  # Full URL, required for the sitemap and robots.txt.
+  online_url = "https://tba.githubpages.io"
+
+  # Extra directories to be copied.
+  extra_directories = []
+
+  # Port used by serve()
+  port = 8004
+
+  output_filename = "CSOutline-CompOrgArch"
